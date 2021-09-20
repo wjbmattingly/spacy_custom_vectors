@@ -1,0 +1,40 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.1.1,<3.2.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"ffaead8fe",
+  "vectors":{
+    "width":10,
+    "vectors":32546,
+    "keys":32546,
+    "name":"en_test"
+  },
+  "labels":{
+    "ner":[
+      "CAMP",
+      "GHETTO"
+    ]
+  },
+  "pipeline":[
+    "ner"
+  ],
+  "components":[
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.0,
+    "ents_p":0.0,
+    "ents_r":0.0,
+    "ents_per_type":0.0,
+    "ner_loss":45.1391641885
+  }
+}
